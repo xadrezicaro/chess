@@ -8,7 +8,7 @@ $db = 'chessmaster';
 $external_url = '/functions.php';
 
 $connect=mysqli_connect("localhost","root","","chessmaster");
-if (!$con) {
+if (!$connect) {
 
 	echo "error 4004";
 
